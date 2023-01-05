@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D7D04952966C5CB00F01C31 /* neaamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D04942966C5CB00F01C31 /* neaamApp.swift */; };
+		4D7D04972966C5CB00F01C31 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D04962966C5CB00F01C31 /* ContentView.swift */; };
+		4D7D04992966C5CC00F01C31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D7D04982966C5CC00F01C31 /* Assets.xcassets */; };
+		4D7D049C2966C5CC00F01C31 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D7D049B2966C5CC00F01C31 /* Preview Assets.xcassets */; };
+		4D7D049E2966C5CC00F01C31 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D049D2966C5CC00F01C31 /* Persistence.swift */; };
+		4D7D04A12966C5CC00F01C31 /* neaam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D049F2966C5CC00F01C31 /* neaam.xcdatamodeld */; };
+		4D7D04AB2966C5CC00F01C31 /* neaamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D04AA2966C5CC00F01C31 /* neaamTests.swift */; };
+		4D7D04B52966C5CC00F01C31 /* neaamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D04B42966C5CC00F01C31 /* neaamUITests.swift */; };
+		4D7D04B72966C5CC00F01C31 /* neaamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D04B62966C5CC00F01C31 /* neaamUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D7D04A72966C5CC00F01C31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D7D04892966C5CB00F01C31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D7D04902966C5CB00F01C31;
+			remoteInfo = neaam;
+		};
+		4D7D04B12966C5CC00F01C31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D7D04892966C5CB00F01C31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D7D04902966C5CB00F01C31;
+			remoteInfo = neaam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D7D04912966C5CB00F01C31 /* neaam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = neaam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D7D04942966C5CB00F01C31 /* neaamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = neaamApp.swift; sourceTree = "<group>"; };
+		4D7D04962966C5CB00F01C31 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4D7D04982966C5CC00F01C31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D7D049B2966C5CC00F01C31 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D7D049D2966C5CC00F01C31 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		4D7D04A02966C5CC00F01C31 /* neaam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = neaam.xcdatamodel; sourceTree = "<group>"; };
+		4D7D04A62966C5CC00F01C31 /* neaamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = neaamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D7D04AA2966C5CC00F01C31 /* neaamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = neaamTests.swift; sourceTree = "<group>"; };
+		4D7D04B02966C5CC00F01C31 /* neaamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = neaamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D7D04B42966C5CC00F01C31 /* neaamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = neaamUITests.swift; sourceTree = "<group>"; };
+		4D7D04B62966C5CC00F01C31 /* neaamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = neaamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D7D048E2966C5CB00F01C31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7D04A32966C5CC00F01C31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7D04AD2966C5CC00F01C31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D7D04882966C5CB00F01C31 = {
+			isa = PBXGroup;
+			children = (
+				4D7D04932966C5CB00F01C31 /* neaam */,
+				4D7D04A92966C5CC00F01C31 /* neaamTests */,
+				4D7D04B32966C5CC00F01C31 /* neaamUITests */,
+				4D7D04922966C5CB00F01C31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D7D04922966C5CB00F01C31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D7D04912966C5CB00F01C31 /* neaam.app */,
+				4D7D04A62966C5CC00F01C31 /* neaamTests.xctest */,
+				4D7D04B02966C5CC00F01C31 /* neaamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D7D04932966C5CB00F01C31 /* neaam */ = {
+			isa = PBXGroup;
+			children = (
+				4D7D04942966C5CB00F01C31 /* neaamApp.swift */,
+				4D7D04962966C5CB00F01C31 /* ContentView.swift */,
+				4D7D04982966C5CC00F01C31 /* Assets.xcassets */,
+				4D7D049D2966C5CC00F01C31 /* Persistence.swift */,
+				4D7D049F2966C5CC00F01C31 /* neaam.xcdatamodeld */,
+				4D7D049A2966C5CC00F01C31 /* Preview Content */,
+			);
+			path = neaam;
+			sourceTree = "<group>";
+		};
+		4D7D049A2966C5CC00F01C31 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4D7D049B2966C5CC00F01C31 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4D7D04A92966C5CC00F01C31 /* neaamTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D7D04AA2966C5CC00F01C31 /* neaamTests.swift */,
+			);
+			path = neaamTests;
+			sourceTree = "<group>";
+		};
+		4D7D04B32966C5CC00F01C31 /* neaamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D7D04B42966C5CC00F01C31 /* neaamUITests.swift */,
+				4D7D04B62966C5CC00F01C31 /* neaamUITestsLaunchTests.swift */,
+			);
+			path = neaamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D7D04902966C5CB00F01C31 /* neaam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D7D04BA2966C5CC00F01C31 /* Build configuration list for PBXNativeTarget "neaam" */;
+			buildPhases = (
+				4D7D048D2966C5CB00F01C31 /* Sources */,
+				4D7D048E2966C5CB00F01C31 /* Frameworks */,
+				4D7D048F2966C5CB00F01C31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = neaam;
+			productName = neaam;
+			productReference = 4D7D04912966C5CB00F01C31 /* neaam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D7D04A52966C5CC00F01C31 /* neaamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D7D04BD2966C5CC00F01C31 /* Build configuration list for PBXNativeTarget "neaamTests" */;
+			buildPhases = (
+				4D7D04A22966C5CC00F01C31 /* Sources */,
+				4D7D04A32966C5CC00F01C31 /* Frameworks */,
+				4D7D04A42966C5CC00F01C31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D7D04A82966C5CC00F01C31 /* PBXTargetDependency */,
+			);
+			name = neaamTests;
+			productName = neaamTests;
+			productReference = 4D7D04A62966C5CC00F01C31 /* neaamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D7D04AF2966C5CC00F01C31 /* neaamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D7D04C02966C5CC00F01C31 /* Build configuration list for PBXNativeTarget "neaamUITests" */;
+			buildPhases = (
+				4D7D04AC2966C5CC00F01C31 /* Sources */,
+				4D7D04AD2966C5CC00F01C31 /* Frameworks */,
+				4D7D04AE2966C5CC00F01C31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D7D04B22966C5CC00F01C31 /* PBXTargetDependency */,
+			);
+			name = neaamUITests;
+			productName = neaamUITests;
+			productReference = 4D7D04B02966C5CC00F01C31 /* neaamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D7D04892966C5CB00F01C31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4D7D04902966C5CB00F01C31 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					4D7D04A52966C5CC00F01C31 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 4D7D04902966C5CB00F01C31;
+					};
+					4D7D04AF2966C5CC00F01C31 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 4D7D04902966C5CB00F01C31;
+					};
+				};
+			};
+			buildConfigurationList = 4D7D048C2966C5CB00F01C31 /* Build configuration list for PBXProject "neaam" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D7D04882966C5CB00F01C31;
+			productRefGroup = 4D7D04922966C5CB00F01C31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D7D04902966C5CB00F01C31 /* neaam */,
+				4D7D04A52966C5CC00F01C31 /* neaamTests */,
+				4D7D04AF2966C5CC00F01C31 /* neaamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D7D048F2966C5CB00F01C31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7D049C2966C5CC00F01C31 /* Preview Assets.xcassets in Resources */,
+				4D7D04992966C5CC00F01C31 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7D04A42966C5CC00F01C31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7D04AE2966C5CC00F01C31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D7D048D2966C5CB00F01C31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7D04A12966C5CC00F01C31 /* neaam.xcdatamodeld in Sources */,
+				4D7D049E2966C5CC00F01C31 /* Persistence.swift in Sources */,
+				4D7D04972966C5CB00F01C31 /* ContentView.swift in Sources */,
+				4D7D04952966C5CB00F01C31 /* neaamApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7D04A22966C5CC00F01C31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7D04AB2966C5CC00F01C31 /* neaamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7D04AC2966C5CC00F01C31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7D04B52966C5CC00F01C31 /* neaamUITests.swift in Sources */,
+				4D7D04B72966C5CC00F01C31 /* neaamUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D7D04A82966C5CC00F01C31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D7D04902966C5CB00F01C31 /* neaam */;
+			targetProxy = 4D7D04A72966C5CC00F01C31 /* PBXContainerItemProxy */;
+		};
+		4D7D04B22966C5CC00F01C31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D7D04902966C5CB00F01C31 /* neaam */;
+			targetProxy = 4D7D04B12966C5CC00F01C31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4D7D04B82966C5CC00F01C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D7D04B92966C5CC00F01C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D7D04BB2966C5CC00F01C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"neaam/Preview Content\"";
+				DEVELOPMENT_TEAM = F3J9926XAP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarakuddah.neaam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D7D04BC2966C5CC00F01C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"neaam/Preview Content\"";
+				DEVELOPMENT_TEAM = F3J9926XAP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarakuddah.neaam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4D7D04BE2966C5CC00F01C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3J9926XAP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarakuddah.neaamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/neaam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/neaam";
+			};
+			name = Debug;
+		};
+		4D7D04BF2966C5CC00F01C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3J9926XAP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarakuddah.neaamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/neaam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/neaam";
+			};
+			name = Release;
+		};
+		4D7D04C12966C5CC00F01C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3J9926XAP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarakuddah.neaamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = neaam;
+			};
+			name = Debug;
+		};
+		4D7D04C22966C5CC00F01C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3J9926XAP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarakuddah.neaamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = neaam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D7D048C2966C5CB00F01C31 /* Build configuration list for PBXProject "neaam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7D04B82966C5CC00F01C31 /* Debug */,
+				4D7D04B92966C5CC00F01C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D7D04BA2966C5CC00F01C31 /* Build configuration list for PBXNativeTarget "neaam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7D04BB2966C5CC00F01C31 /* Debug */,
+				4D7D04BC2966C5CC00F01C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D7D04BD2966C5CC00F01C31 /* Build configuration list for PBXNativeTarget "neaamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7D04BE2966C5CC00F01C31 /* Debug */,
+				4D7D04BF2966C5CC00F01C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D7D04C02966C5CC00F01C31 /* Build configuration list for PBXNativeTarget "neaamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7D04C12966C5CC00F01C31 /* Debug */,
+				4D7D04C22966C5CC00F01C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4D7D049F2966C5CC00F01C31 /* neaam.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4D7D04A02966C5CC00F01C31 /* neaam.xcdatamodel */,
+			);
+			currentVersion = 4D7D04A02966C5CC00F01C31 /* neaam.xcdatamodel */;
+			path = neaam.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4D7D04892966C5CB00F01C31 /* Project object */;
+}
